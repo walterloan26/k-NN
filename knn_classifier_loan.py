@@ -75,8 +75,8 @@ for (i, imagePath) in enumerate(imagePaths):
     features.append(hist)
     labels.append(label)
 
-    # show an update every 2,500 images
-    if i > 0 and i % 400 == 0:
+    # show an update every 100 images
+    if i > 0 and i % 100 == 0:
         print("[INFO] processed {}/{}".format(i, len(imagePaths)))
 
 
